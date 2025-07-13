@@ -1,0 +1,283 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F5F8FF;
+    
+}
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: black;
+  font-style: normal;
+  font-size: 34px;
+  color: #4E47FF;
+}
+.header{
+    background-image: url(./Assets/Hero-bg.png);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+.btn{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-radius: 10px;
+  gap: 16px;
+  background: #4E47FF;
+  padding: 12px 36px;
+  border: none;
+  text-decoration: none;
+  margin: 20px;
+  display: inline-block;
+
+}
+
+.banner{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.btn-banner{
+    margin: 15px 0;
+}
+.banner-content{
+    font-size: 60px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    line-height: -15PX;
+}
+
+.action{
+    display: flex;
+    gap: auto;
+    justify-content: space-between;
+    margin: 60px 60px;
+    padding: 30px 0 0 0;
+}
+
+.action-content{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    gap: 23px;
+    margin: 23px;
+   max-width: 517px;
+}
+.users{
+    display: flex;
+    justify-content: space-around;
+}
+
+span{
+    font-weight: bold;
+    font-size: 42px;
+}
+
+p{
+    font-size: 24px;
+    color: #252432;
+}
+
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.user-title{
+    font-weight: bold;
+    font-size: 38px;
+    font-family: "Raleway", sans-serif;
+}
+
+.users-section{
+    background: #4d47ff2d;
+    text-align: center;
+    border-radius: 24px;
+    margin: 0 60px 30px 60px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.users-number{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #0b03ffbb;
+    margin: 0 !important;
+}
+
+.users-description{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin: 0 !important;
+}
+.card-title{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+   font-style: normal;
+    font-weight: bold;
+   font-size: 42px;
+   text-align: center;
+
+}
+
+.reviews {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+
+}
+
+.card {
+  background: #FFFFFF;
+  border-radius: 24px;
+  padding: 24px;
+  width: 250px;
+  gap: 20px;
+}
+
+h3 {
+  margin: 10px 0 0 0;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.date {
+  font-size: 11px;
+  color: #B3B3B3;
+}
+.review-discrp{
+    font-size: 14px;
+}
+
+.hero {
+  background: #FFFFFF;
+  border-radius: 14px;
+  padding: 71px 150px;
+  text-align: center;
+  max-width: 1140px;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.hero p {
+  fill:#000000;
+  opacity: 50%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 48px;
+}
+
+.join-section{
+  display: flex;
+  padding: 100px 150px;
+  gap: auto;
+}
+
+.join-title{
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 97px;
+}
+
+.action-from .btn{
+  width: 100% !important;
+}
+
+input[type="text"]{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #FFFFFF;
+  fill: #000000;
+  opacity: 50%;
+  width: 100%;
+  border: #D6DDED;
+}
+
+label{
+  display: block;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+textarea{
+  border-radius:10px;
+  padding: 10px 20px;
+  border: #D6DDED;
+  width: 100%;
+}
+
+/* footer style */
+
+
+footer{
+  background: #FFFFFF;
+  text-align: center;
+}
+
+.logo {
+    font-family: "Inter", sans-serif;
+  font-size: 100px;
+  color: #4E47FF; 
+}
+
+.footer-discription {
+    font-family: "Inter", sans-serif;
+  color: #8987A1;
+  font-size: 16px;
+  }
+
+.nav-links {
+  list-style: none;
+  padding: 0 0 50px 550px;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #8987A1;
+  font-size: 14px;
+}
